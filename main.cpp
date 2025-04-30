@@ -95,9 +95,7 @@ int main(int argc, char* argv[]) {
             SDL_RenderClear(renderer);
             SDL_RenderCopy(renderer, texture, nullptr, nullptr);
             SDL_RenderPresent(renderer);
-
             chip8.drawFlag = false;
-
         }
 
         std::this_thread::sleep_for(std::chrono::milliseconds(1));

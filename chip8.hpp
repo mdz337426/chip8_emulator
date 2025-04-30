@@ -23,8 +23,6 @@ class Chip8{
     unsigned char V[16];
     unsigned short I;
     unsigned short pc;
-
-
     unsigned short stack[16];
     unsigned short sp;
     
